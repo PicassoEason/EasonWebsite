@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './Page/App';
-import Context from './Page/project';
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import './index.css'
+import App from './Page/nav'
+import Project from './Page/project'
+import Center from './Page/center'
+import Certified from './Page/certified'
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Context />
+    <Center />
+    <Certified />
+    <Project />
+  
   </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();

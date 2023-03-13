@@ -13,13 +13,7 @@ const callouts = [
       imageAlt: '圖片載入失敗',
       href: '#',
     },
-    {
-      name: 'Travel',
-      description: 'Daily commute essentials',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
-      imageAlt: '圖片載入失敗',
-      href: '#',
-    },
+
   ]
   
   export default function Example() {
