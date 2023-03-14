@@ -9,7 +9,17 @@ export default function center() {
                 關於易陞
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                Student 
+                <strong>
+                數字藝術家
+                </strong> 
+                <br></br>
+                <br></br>
+                中科大五專生，喜歡游泳及健身
+                <br></br>
+                <br></br>
+                網頁工程師 | 雲端架構師 
+                <br></br>
+                技能為: React Arduino ESP32
               </p>
             </div>
             <div>

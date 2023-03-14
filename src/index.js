@@ -5,7 +5,7 @@ import App from './Page/nav'
 import Project from './Page/project'
 import Center from './Page/center'
 import Certified from './Page/certified'
-import Contact from './Page/contact'
+import Footer from './Page/footer'
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -16,7 +16,7 @@ root.render(
   
     <Certified />
     <Project />
-    <Contact />
+    <Footer />
   
   </React.StrictMode>
 );

@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function contact ()  {
+export default function footer ()  {
   return (
-    <div className="bg-gray-100">
-      <a name="Contact" id="Contact"></a>
+    <div className="bg-gray-100" id="Contact" >
+
       <div class="container p-6">
    
       </div>

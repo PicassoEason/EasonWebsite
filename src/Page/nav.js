@@ -6,7 +6,7 @@ const navigation = [
   { name: 'Home', href: '#', current: true },
   { name: '證照', href: '#Certified', current: false },
   { name: '作品集', href: '#Project', current: false },  
-  { name: '聯絡', href: '#Contact', current: false },
+
 ]
 
 function classNames(...classes) {
