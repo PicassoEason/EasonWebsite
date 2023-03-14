@@ -31,10 +31,10 @@ const callouts = [
 
 export default function Example() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100"><a name="Certified" id="Certified"></a>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-        <a name="Certified" id="Certified"></a>
+        
             <h2 className="text-2xl font-bold text-gray-900">證照</h2>
 
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0 ">
