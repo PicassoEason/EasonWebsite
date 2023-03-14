@@ -14,8 +14,8 @@ root.render(
     <App />
     <Center />
   
-    <Certified />
     <Project />
+    <Certified />
     <Footer />
   
   </React.StrictMode>

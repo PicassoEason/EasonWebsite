@@ -1,8 +1,8 @@
 export default function center() {
     return (
       <div className="relative overflow-hidden bg-white">
-        <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
-          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+        <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48 md:py-48 xl:py-52  ">
+          <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 ">
             <div className="sm:max-w-lg">
               
               <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
@@ -27,10 +27,10 @@ export default function center() {
                 {/* Decorative image grid */}
                 <div
                   aria-hidden="true"
-                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl ">
+                  className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl sm:max-w-2xl">
                   <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
-                    <div className="flex items-center space-x-6 lg:space-x-8 sm:space-x-10">
-                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8 sm:gap-y-6">
+                    <div className="flex items-center space-x-6 lg:space-x-8 sm:space-x-4">
+                      <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-10 sm:gap-y-6 md:gap-y-8">
                         <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-50 lg:opacity-100">
                           <img
                             src="https://scontent-tpe1-1.xx.fbcdn.net/v/t39.30808-6/318560328_1858548367820029_8618448499950562425_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=174925&_nc_ohc=A3fFTx2S_coAX80MoZh&_nc_ht=scontent-tpe1-1.xx&oh=00_AfB3vTGCSWj80jIhqLVBhT95RP3KAY96ZzHaNYT9knvVLg&oe=64142451"

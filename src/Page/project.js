@@ -12,6 +12,12 @@ const callouts = [
       imageSrc: 'https://i.imgur.com/wViMUNj.png',
       imageAlt: '圖片載入失敗',
       href: '#',
+    },  {
+      name: '遊戲王卡片整合系統',
+      description:  '類型：團體開發',
+      imageSrc: 'https://i.imgur.com/Eos2FKf.jpg',
+      imageAlt: '圖片載入失敗',
+      href: 'https://i.imgur.com/Eos2FKf.jpg',
     },
 
   ]
@@ -19,12 +25,12 @@ const callouts = [
   export default function Example() {
     return (
       <div className="bg-gray-100">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" id="Project">
+          <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32 xl:py-48">
      
-            <h2 className="text-2xl font-bold text-gray-900" id="Project">作品集</h2>
+            <h2 className="text-2xl font-bold text-gray-900" >作品集</h2>
   
-            <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+            <div className="mt-10 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-10 lg:space-y-0">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
                   <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -34,7 +40,7 @@ const callouts = [
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-6 text-sm text-gray-500">
+                  <h3 className="mt-8 text-sm text-gray-500">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
