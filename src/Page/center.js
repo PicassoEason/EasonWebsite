@@ -4,7 +4,7 @@ export default function center() {
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48 md:py-48 xl:py-52  ">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 ">
             <div className="sm:max-w-lg">
-              
+           
               <h1 className="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
                 關於易陞
               </h1>
@@ -14,14 +14,31 @@ export default function center() {
                 </strong> 
                 <br></br>
                 <br></br>
-                中科大五專生，喜歡游泳及健身
-                <br></br>
+                中科大五專生，喜歡游泳及VR
                 <br></br>
                 網頁工程師 | 雲端架構師 
                 <br></br>
-                技能為: React Arduino ESP32
+                <br></br>
+                技能樹：
+                <br></br>
+                <br></br>
+                <div className="grid grid-cols-12">
+                  <i class="fa-brands fa-react"></i>
+                  <i class="fa-brands fa-unity"></i>
+                  <i class="fa-solid fa-vr-cardboard"></i>
+                  <i class="fa-brands fa-raspberry-pi"></i>
+                  <i class="fa-brands fa-html5"></i>
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <i class="fa-brands fa-js"></i>
+                  <i class="fa-brands fa-aws"></i>
+                </div>
+                <br></br>
+                <div className="">
+                <i class="fa-solid fa-phone"> +886 966-302-596</i>
+                </div>
               </p>
             </div>
+            
             <div>
               <div className="mt-10">
                 {/* Decorative image grid */}
@@ -91,12 +108,12 @@ export default function center() {
                   </div>
                 </div>
   
-                {/* <a
-                  href="#"
+                <a
+                  href="https://www.linkedin.com/in/yishengwu/"
                   className="inline-block rounded-md border border-transparent bg-emerald-400	 py-3 px-8 text-center font-medium text-white hover:bg-indigo-700"
                 >
-                  開始了解
-                </a> */}
+                  訪問Linkedin
+                </a>
               </div>
             </div>
           </div>
