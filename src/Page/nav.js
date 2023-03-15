@@ -41,11 +41,15 @@ export default function Nav() {
                       className="block h-8 w-auto lg:hidden"
                       src="https://cdn-icons-png.flaticon.com/512/2466/2466832.png"
                       alt="Eason"
+                      width="50px"
+                      height="50px"
                     />
                     <img
                       className="hidden h-8 w-auto lg:block"
                       src="https://cdn-icons-png.flaticon.com/512/2466/2466832.png"
                       alt="Eason"
+                      width="50px"
+                      height="50px"
                     />
                   </div>
                   <div className="hidden sm:ml-6 sm:block">

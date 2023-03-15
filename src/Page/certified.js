@@ -1,27 +1,36 @@
+import tqcaward from '../img/award/2.webp'
+import taipeiaward from '../img/award/8.webp'
+import ccpaward from '../img/award/7.webp'
+import micaward from '../img/award/6.webp'
+
 const callouts = [
   {
     name: '類型：程式競賽 2022年7月',
     description: 'TQC Python 夏季競行曲 第三名 ',
-    imageSrc: "https://i.imgur.com/8JwtPoL.png",
+    imageSrc: tqcaward,
     href: "https://i.imgur.com/8JwtPoL.png",
+    alt:"TQC Python 夏季競行曲 第三名",
   },
   {
     name:  '類型：團體競賽 2022 1月',
     description: '顯示科技怎麼用？我的課程我來定!   佳作',
-    imageSrc: 'https://i.imgur.com/VxG9XcY.png',
+    imageSrc: taipeiaward,
     href:'https://i.imgur.com/VxG9XcY.png',
+    alt:"顯示科技怎麼用？我的課程我來定!   佳作",
   },
   {
     name:  '類型：AWS 國際認證',
     description: 'AWS Certified Cloud Practitioner',
-    imageSrc: 'https://images.credly.com/size/680x680/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png',
-    href:'https://www.credly.com/badges/28c57016-5ae1-462f-a98a-6ba57c576c43/public_url'
+    imageSrc: ccpaward ,
+    href:'https://www.credly.com/badges/28c57016-5ae1-462f-a98a-6ba57c576c43/public_url',
+    alt:"AWS 國際認證",
   },
   {
     name:  '類型：Microsoft 國際認證',
     description: 'Microsoft AI900',
-    imageSrc: 'https://i.imgur.com/eCoXeK4.png',
+    imageSrc: micaward,
     href:'https://i.imgur.com/eCoXeK4.png',
+    alt:"Microsoft 國際認證",
   },
   
 

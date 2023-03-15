@@ -1,25 +1,23 @@
+import raspi from '../img/award/1.webp' 
+import firevr from '../img/award/9.webp'
+
 const callouts = [
     {
       name: '樹梅派溫溼度感測',
       description: '類型：團體開發',
-      imageSrc: "https://i.imgur.com/4stXFR9.png",
+      imageSrc: raspi,
       imageAlt: '圖片載入失敗',
       href: 'https://github.com/PicassoEason/PI-GetTH.git',
+      alt:"樹梅派溫溼度感測",
     },
     {
       name: '火場VR逃生',
       description:  '類型：團體開發',
       role:'擔任：組長',
-      imageSrc: 'https://i.imgur.com/wViMUNj.png',
+      imageSrc: firevr,
       imageAlt: '圖片載入失敗',
       href: '#',
-    },  {
-      name: '遊戲王卡片整合系統',
-      description:  '類型：團體開發',
-      role:'擔任：組長',
-      imageSrc: 'https://i.imgur.com/Eos2FKf.jpg',
-      imageAlt: '圖片載入失敗',
-      href: 'https://i.imgur.com/Eos2FKf.jpg',
+      alt:"火場VR逃生",
     }
 
   ]
