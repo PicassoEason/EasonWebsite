@@ -9,16 +9,18 @@ const callouts = [
     {
       name: '火場VR逃生',
       description:  '類型：團體開發',
+      role:'擔任：組長',
       imageSrc: 'https://i.imgur.com/wViMUNj.png',
       imageAlt: '圖片載入失敗',
       href: '#',
     },  {
       name: '遊戲王卡片整合系統',
       description:  '類型：團體開發',
+      role:'擔任：組長',
       imageSrc: 'https://i.imgur.com/Eos2FKf.jpg',
       imageAlt: '圖片載入失敗',
       href: 'https://i.imgur.com/Eos2FKf.jpg',
-    },
+    }
 
   ]
   
@@ -40,13 +42,14 @@ const callouts = [
                       className="h-full w-full object-cover object-center"
                     />
                   </div>
-                  <h3 className="mt-8 text-sm text-gray-500">
+                  <h3 className="mt-8 text-base text-gray-500">
                     <a href={callout.href}>
                       <span className="absolute inset-0" />
                       {callout.name}
                     </a>
                   </h3>
                   <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                  <p className="text-base font-semibold text-gray-900">{callout.role}</p>
                 </div>
               ))}
             </div>
