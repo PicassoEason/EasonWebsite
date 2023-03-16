@@ -1,11 +1,11 @@
-import raspi from '../img/award/1.webp' 
-import firevr from '../img/award/9.webp'
+import Raspi from '../img/webp/pi.webp' 
+import Firevr from '../img/webp/firevr.webp'
 
 const callouts = [
     {
       name: '樹梅派溫溼度感測',
       description: '類型：團體開發',
-      imageSrc: raspi,
+      imageSrc: Raspi,
       imageAlt: '圖片載入失敗',
       href: 'https://github.com/PicassoEason/PI-GetTH.git',
       alt:"樹梅派溫溼度感測",
@@ -14,7 +14,7 @@ const callouts = [
       name: '火場VR逃生',
       description:  '類型：團體開發',
       role:'擔任：組長',
-      imageSrc: firevr,
+      imageSrc: Firevr,
       imageAlt: '圖片載入失敗',
       href: '#',
       alt:"火場VR逃生",

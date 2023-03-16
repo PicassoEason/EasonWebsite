@@ -1,7 +1,7 @@
-import tqcaward from '../img/award/2.webp'
-import taipeiaward from '../img/award/8.webp'
-import ccpaward from '../img/award/7.webp'
-import micaward from '../img/award/6.webp'
+import tqcaward from '../img/webp/award.webp'
+import taipeiaward from '../img/webp/race.webp'
+import ccpaward from '../img/webp/awscc.webp'
+import micaward from '../img/webp/microsoft.webp'
 
 const callouts = [
   {
@@ -9,28 +9,28 @@ const callouts = [
     description: 'TQC Python 夏季競行曲 第三名 ',
     imageSrc: tqcaward,
     href: "https://i.imgur.com/8JwtPoL.png",
-    alt:"TQC Python 夏季競行曲 第三名",
+    imageAlt:"TQC Python 夏季競行曲 第三名",
   },
   {
     name:  '類型：團體競賽 2022 1月',
     description: '顯示科技怎麼用？我的課程我來定!   佳作',
     imageSrc: taipeiaward,
     href:'https://i.imgur.com/VxG9XcY.png',
-    alt:"顯示科技怎麼用？我的課程我來定!   佳作",
+    imageAlt:"顯示科技怎麼用？我的課程我來定!   佳作",
   },
   {
     name:  '類型：AWS 國際認證',
     description: 'AWS Certified Cloud Practitioner',
     imageSrc: ccpaward ,
     href:'https://www.credly.com/badges/28c57016-5ae1-462f-a98a-6ba57c576c43/public_url',
-    alt:"AWS 國際認證",
+    imageAlt:"AWS 國際認證",
   },
   {
     name:  '類型：Microsoft 國際認證',
     description: 'Microsoft AI900',
     imageSrc: micaward,
     href:'https://i.imgur.com/eCoXeK4.png',
-    alt:"Microsoft 國際認證",
+    imageAlt:"Microsoft 國際認證",
   },
   
 
@@ -50,7 +50,7 @@ export default function Example() {
             <div className="mt-10 space-y-12 lg:grid lg:grid-cols-4 lg:gap-x-24 lg:space-y-0 ">
               {callouts.map((callout) => (
                 <div key={callout.name} className="group relative">
-                  <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:-w-4 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+                  <div className="relative h-full w-full overflow-hidden rounded-lg bg-white group-hover:opacity-75 sm:-w-4 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
                     <img
                       src={callout.imageSrc}
                       alt={callout.imageAlt}
